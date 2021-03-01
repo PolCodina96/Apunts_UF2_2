@@ -1,0 +1,47 @@
+# OPTIMITZACIÓ:
+
+## HEDIONDEZ DEL CÓDIGO:
+
+- També anomenat **code small**.
+- Es el sintoma en el codi font que indica possiblement un problema més profund.
+- Usualment no son bug de programació (errors): no son tecnicament incorrectes i en realitat no impadeixen que el programa funcioni correctament.
+- Indica deficiencies en el diseny que pot relantitzar el desenvolupament o augmentar el risc d'errors o fallades en un futur.
+- És un motiu important per a realitzar refactorització.
+
+## ANÁLISIS DE CODI:
+
+Hi ha dos tipus:
+- **Análisis dinàmic:** (unit tests)
+- **Análisis estàtic:** (**lint**)
+
+### ANÁLISIS ESTÀTIC DE CODI:
+
+- Mitjançant analitzadors estàtics (**linters**)
+- Mitjançant llocs web per inspecció de codi.
+  - Exemples:
+    - **lint:** C
+    - **sonar:** Java
+    - **JSLint, ESLint:** Javascript
+
+## REFACTORITZACIÓ:
+
+- És el procés de restructurar un codi font, alterant la seva estructura interna sense canviar el seu comportament extern.
+- Tècniques:
+  - Renombrar variables
+  - Pasar codi duplicat a funcions
+  - Eliminar codi inabastable
+  - Eliminar codi redundant
+  - Eliminar codi mort
+
+# DOCUMENTACIÓ:
+
+- Tipus:
+  - Documentació de codi
+  - Documentació tècnica
+  - Documentació d'usuari
+
+  - Formats de documentació:
+  - **HTML** (Javadoc)
+  - **Markdown** (Gitbook)
+  - **reStructuredText** (Readthedocs)
+  - **asciiDoc**
